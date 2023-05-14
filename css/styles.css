@@ -1,25 +1,40 @@
-:root {}
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --succes: #31D0AA;
+    --text: #434455;
+    --subtitle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-bg: #2E2F42;
+    --white-bg: #ffffff;
+    --modal-bg: #FCFCFC;
+
+}
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #fff;
+    background-color: var(--white-bg);
 }
 
-.header {}
-
 /* header */
+
+
+
 .navigation-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--modal-overlay);
 }
 
-/* main */
+/**--------------- main------------- */
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--hero-bg);
 }
 
 .hero-title {
@@ -29,7 +44,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-bg);
 }
 
 .hero-button {
@@ -41,17 +56,17 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-bg);
+    background-color: var(--primary-brand);
     cursor: pointer;
 }
 
 .hero-button:hover {
-    color: #404bbf
+    color: var(--pressed-state)
 }
 
 .hero-button:focus {
-    color: #404bbf
+    color: var(--pressed-state)
 }
 
 .link {
@@ -68,7 +83,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--modal-overlay);
 }
 
 .typical-text {
@@ -76,7 +91,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
 
 .logo-first {
@@ -88,7 +103,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--primary-brand);
 
 
 }
@@ -97,7 +112,7 @@ body {
 
 .logo-second {
 
-    color: #2E2F42;
+    color: var(--dark);
 
 
 }
@@ -109,7 +124,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 address {
@@ -119,5 +134,5 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
