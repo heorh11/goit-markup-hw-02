@@ -2,8 +2,27 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.header {
+    background-color: #fff;
+    padding: 24 0 24 0;
+}
+
 .logo {
-    font-family: "raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1, 75 display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* IRIS */
+
+    color: #4D5AE5;
+
+
+
 }
 
 .navigation {
@@ -24,9 +43,4 @@ address {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.example-title {
-    color: red;
-    padding: 0px;
 }
