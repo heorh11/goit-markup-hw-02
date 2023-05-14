@@ -1,3 +1,5 @@
+:root {}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -42,6 +44,14 @@ body {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #404bbf
+}
+
+.hero-button:focus {
+    color: #404bbf
 }
 
 .link {
