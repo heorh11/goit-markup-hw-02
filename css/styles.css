@@ -213,7 +213,7 @@ body {
     color: var(--light);
 }
 
-.filiter-button {
+.filter-button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -227,12 +227,12 @@ body {
     color: var(--primary-brand);
 }
 
-.filiter-button:hover {
+.filter-button:hover {
     color: var(--white-bg);
     background-color: var(--pressed-state);
 }
 
-.filiter-button:focus {
+.filter-button:focus {
     color: var(--white-bg);
     background-color: var(--pressed-state);
 }
