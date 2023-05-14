@@ -20,9 +20,38 @@ body {
     background-color: var(--white-bg);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 /* header */
 
+.logo-first {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
 
+
+}
+
+
+
+.logo-second {
+
+    color: var(--dark);
+
+
+}
 
 .navigation-item {
     font-weight: 500;
@@ -62,20 +91,13 @@ body {
 }
 
 .hero-button:hover {
-    color: var(--pressed-state)
+    background-color: var(--pressed-state)
 }
 
 .hero-button:focus {
-    color: var(--pressed-state)
+    background-color: var(--pressed-state)
 }
 
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
 
 .typical-title {
     font-style: normal;
@@ -94,30 +116,9 @@ body {
     color: var(--text);
 }
 
-.logo-first {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-brand);
 
 
-}
-
-
-
-.logo-second {
-
-    color: var(--dark);
-
-
-}
-
-.navigation {
+.navigation-item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -127,12 +128,62 @@ body {
     color: var(--dark);
 }
 
-address {
+.navigation-item:hover {
+    color: var(--pressed-state);
+
+}
+
+.navigation-item:focus {
+    color: var(--pressed-state);
+}
+
+.address-list {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+}
+
+.mail-adress {
     color: var(--text);
+}
+
+.mail-adress:hover {
+    color: var(--pressed-state);
+}
+
+.mail-adress:focus {
+    color: var(--pressed-state);
+}
+
+.phone-number {
+    color: var(--text);
+}
+
+.phone-number:hover {
+    color: var(--pressed-state);
+}
+
+.phone-number:focus {
+    color: var(--pressed-state);
+}
+
+.repeated-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-section {
+    background-color: var(--light);
+}
+
+.footer {
+    background-color: var(--dark);
 }
