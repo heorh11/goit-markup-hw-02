@@ -77,17 +77,13 @@ body {
     font-style: normal;
 }
 
-.address-list {
 
 
+.mail-adress {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-}
-
-.mail-adress {
     color: var(--text)
 }
 
@@ -100,7 +96,11 @@ body {
 }
 
 .phone-number {
-    color: var(--dark)
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text)
 }
 
 .phone-number:hover {
@@ -187,6 +187,14 @@ body {
     color: var(--pressed-state);
 }
 
+.example-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
 
 .repeated-title {
     font-size: 36px;
