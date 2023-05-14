@@ -6,6 +6,7 @@ body {
 
 .header {}
 
+/* header */
 .navigation-item {
     font-weight: 500;
     font-size: 16px;
@@ -14,12 +15,58 @@ body {
     color: #2E2F42;
 }
 
+/* main */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
+}
+
+.typical-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.typical-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .logo-first {
