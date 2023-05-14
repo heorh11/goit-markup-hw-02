@@ -58,7 +58,54 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--modal-overlay);
+    color: var(--dark);
+}
+
+.navigation-item:hover {
+    color: var(--pressed-state);
+
+}
+
+.navigation-item:focus {
+    color: var(--pressed-state);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.address-list {
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.mail-adress {
+    color: var(--text);
+}
+
+.mail-adress:hover {
+    color: var(--pressed-state);
+}
+
+.mail-adress:focus {
+    color: var(--pressed-state);
+}
+
+.phone-number {
+    color: var(--text);
+}
+
+.phone-number:hover {
+    color: var(--pressed-state);
+}
+
+.phone-number:focus {
+    color: var(--pressed-state);
 }
 
 /**--------------- main------------- */
@@ -137,39 +184,6 @@ body {
     color: var(--pressed-state);
 }
 
-.address-list {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-}
-
-.mail-adress {
-    color: var(--text);
-}
-
-.mail-adress:hover {
-    color: var(--pressed-state);
-}
-
-.mail-adress:focus {
-    color: var(--pressed-state);
-}
-
-.phone-number {
-    color: var(--text);
-}
-
-.phone-number:hover {
-    color: var(--pressed-state);
-}
-
-.phone-number:focus {
-    color: var(--pressed-state);
-}
 
 .repeated-title {
     font-size: 36px;
