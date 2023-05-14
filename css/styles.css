@@ -67,7 +67,6 @@ body {
 
 .navigation-item:hover {
     color: var(--pressed-state);
-
 }
 
 .navigation-item:focus {
@@ -89,7 +88,7 @@ body {
 }
 
 .mail-adress {
-    color: var(--text);
+    color: var(--text)
 }
 
 .mail-adress:hover {
@@ -101,7 +100,7 @@ body {
 }
 
 .phone-number {
-    color: var(--text);
+    color: var(--dark)
 }
 
 .phone-number:hover {
